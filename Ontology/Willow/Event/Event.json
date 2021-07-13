@@ -1,0 +1,77 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Event;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Event"
+  },
+  "extends" : [
+
+  ],
+  "contents": [
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "The entity responsible for generating or producing the event."
+      },
+      "displayName": {
+        "en": "Produced By"
+      },
+      "name": "producedBy"
+    },
+    {
+      "@type": "Property",
+      "name": "uniqueID",
+      "displayName": {
+        "en": "Globally Unique ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "externalID",
+      "displayName": {
+        "en": "External ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "code",
+      "displayName": {
+        "en": "Code"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "description",
+      "displayName": {
+        "en": "Description"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "siteID",
+      "displayName": {
+        "en": "Site ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "active",
+      "displayName": {
+        "en": "Active"
+      },
+      "writable": true,
+      "schema": "boolean"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

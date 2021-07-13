@@ -1,0 +1,73 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Document;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Document"
+  },
+  "extends" : [
+
+  ],
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "isDocumentOf",
+      "displayName": {
+        "en": "is document of"
+      }
+    },
+    {
+      "@type": "Relationship",
+      "name": "includedIn",
+      "displayName": {
+        "en": "included in"
+      },
+      "target": "dtmi:com:willowinc:rail:Collection;1"
+    },
+    {
+      "@type": "Property",
+      "name": "uniqueID",
+      "displayName": {
+        "en": "Globally Unique ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "externalID",
+      "displayName": {
+        "en": "External ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "code",
+      "displayName": {
+        "en": "Code"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "description",
+      "displayName": {
+        "en": "Description"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "siteID",
+      "displayName": {
+        "en": "Site ID"
+      },
+      "writable": true,
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

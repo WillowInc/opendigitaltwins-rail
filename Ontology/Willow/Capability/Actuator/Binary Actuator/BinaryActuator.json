@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:com:willowinc:BinaryActuator;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Binary Actuator"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:Actuator;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "lastValue",
+      "displayName": {
+        "en": "Last Value"
+      },
+      "writable": true,
+      "schema": "boolean"
+    }
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

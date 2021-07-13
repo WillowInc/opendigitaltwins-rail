@@ -1,0 +1,85 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Agent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Agent"
+  },
+  "extends" : [
+
+  ],
+  "contents": [
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates that an agent is the legal owner of a given entity, e.g., a Company owns some Real Estate. Inverse of: ownedBy"
+      },
+      "displayName": {
+        "en": "owns"
+      },
+      "name": "owns"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasDocument",
+      "displayName": {
+        "en": "has document"
+      },
+      "target": "dtmi:com:willowinc:rail:Document;1"
+    },
+    {
+      "@type": "Property",
+      "name": "uniqueID",
+      "displayName": {
+        "en": "Globally Unique ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "externalID",
+      "displayName": {
+        "en": "External ID"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "code",
+      "displayName": {
+        "en": "Code"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "description",
+      "displayName": {
+        "en": "Description"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "siteID",
+      "displayName": {
+        "en": "Site ID"
+      },
+      "writable": true,
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

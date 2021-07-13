@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:willowinc:ThermalEnergySensor;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Thermal Energy Sensor"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:EnergySensor;1"
+  ],
+  "contents": [
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

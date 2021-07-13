@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Department;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Department"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Organization;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:Setpoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Setpoint"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:Parameter;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

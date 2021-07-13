@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ServiceContract;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Service Contract"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:ContractDocument;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

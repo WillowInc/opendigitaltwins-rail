@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ConveyanceSystem;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Conveyance System"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:System;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
