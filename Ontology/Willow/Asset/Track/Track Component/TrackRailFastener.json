@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TrackRailFastener;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Track Rail Fastener"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackComponent;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ThreeWaySwitch;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Three-Way Switch"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackSwitch;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

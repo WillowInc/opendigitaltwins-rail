@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:RailwaySignal;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Railway Signal"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Signalling;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TrackSwitch;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Track Switch"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Track;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

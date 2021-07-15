@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TrackBallast;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Track Ballast"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackComponent;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

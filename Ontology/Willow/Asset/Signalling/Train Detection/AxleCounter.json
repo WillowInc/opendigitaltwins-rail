@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:AxleCounter;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Axle Counter"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrainDetection;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
