@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:DoubleSlipSwitch;1",
+  "@id": "dtmi:com:willowinc:rail:RailroadCar;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Double Slip Switch"
+    "en": "Railroad Car"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackSwitch;1"
+    "dtmi:com:willowinc:rail:Vehicle;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:SingleSlipSwitch;1",
+  "@id": "dtmi:com:willowinc:rail:SteamLocomotive;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Single Slip Switch"
+    "en": "Steam Locomotive"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackSwitch;1"
+    "dtmi:com:willowinc:rail:Locomotive;1"
   ],
   "contents": [
   ],

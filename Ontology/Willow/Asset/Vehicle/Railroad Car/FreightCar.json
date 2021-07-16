@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrackSwitch;1",
+  "@id": "dtmi:com:willowinc:rail:FreightCar;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Track Switch"
+    "en": "Freight Car"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:Track;1"
+    "dtmi:com:willowinc:rail:RailroadCar;1"
   ],
   "contents": [
   ],

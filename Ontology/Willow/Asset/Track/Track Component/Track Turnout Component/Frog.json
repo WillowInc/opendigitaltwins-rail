@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Frog;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Frog"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
