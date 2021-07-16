@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:ThreeWaySwitch;1",
+  "@id": "dtmi:com:willowinc:rail:SlideChair;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Three-Way Switch"
+    "en": "Slide Chair"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackSwitch;1"
+    "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
   ],
   "contents": [
   ],

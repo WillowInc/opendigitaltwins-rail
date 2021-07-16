@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ThreeWayTurnout;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Three-Way Turnout"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackTurnout;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

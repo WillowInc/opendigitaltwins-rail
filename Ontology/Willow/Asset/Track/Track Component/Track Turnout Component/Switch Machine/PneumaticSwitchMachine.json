@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:PneumaticSwitchMachine;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Pneumatic Switch Machine"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:SwitchMachine;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

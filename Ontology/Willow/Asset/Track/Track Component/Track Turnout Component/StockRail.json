@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:WyeSwitch;1",
+  "@id": "dtmi:com:willowinc:rail:StockRail;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Wye Switch"
+    "en": "Stock Rail"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackSwitch;1"
+    "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
   ],
   "contents": [
   ],

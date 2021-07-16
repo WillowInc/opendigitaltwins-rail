@@ -5,7 +5,7 @@
     "en": "Outside Slip Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackSwitch;1"
+    "dtmi:com:willowinc:rail:SlipSwitch;1"
   ],
   "contents": [
   ],

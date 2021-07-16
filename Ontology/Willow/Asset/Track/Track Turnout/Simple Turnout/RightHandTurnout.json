@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:RightHandTurnout;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Right-hand Turnout"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:SimpleTurnout;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
