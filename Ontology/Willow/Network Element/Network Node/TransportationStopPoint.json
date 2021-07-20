@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TransportationStopPoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Transportation Stop Point"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:NetworkNode;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

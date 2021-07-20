@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Network;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Network"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Collection;1"
+  ],
+  "contents": [
+
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

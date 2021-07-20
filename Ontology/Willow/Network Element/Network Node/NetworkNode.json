@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrackCrossing;1",
+  "@id": "dtmi:com:willowinc:rail:NetworkNode;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Track Crossing"
+    "en": "Network Node"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:Track;1"
+    "dtmi:com:willowinc:rail:NetworkElement;1"
   ],
   "contents": [
   ],

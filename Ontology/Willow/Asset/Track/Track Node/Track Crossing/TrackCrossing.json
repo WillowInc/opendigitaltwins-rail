@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrackTurnout;1",
+  "@id": "dtmi:com:willowinc:rail:TrackCrossing;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Track Turnout"
+    "en": "Track Crossing"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:Track;1"
+    "dtmi:com:willowinc:rail:TrackNode;1"
   ],
   "contents": [
   ],
