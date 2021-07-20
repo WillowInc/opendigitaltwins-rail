@@ -35,6 +35,16 @@
     },
     {
       "@type": "Property",
+      "name": "networkId",
+      "displayName": {
+        "en": "Network ID"
+      },
+      "writable": true,
+      "schema": "string",
+      "comment": "Reference of the network to which the asset belongs. A Customer has one or many Networks. Network is considered the top-level entity for binding rail twins."
+    },
+    {
+      "@type": "Property",
       "displayName": {
         "en": "name"
       },
@@ -44,40 +54,48 @@
     },
     {
       "@type": "Property",
-      "name": "uniqueID",
+      "name": "description",
       "displayName": {
-        "en": "Globally Unique ID"
+        "en": "Description"
       },
       "writable": true,
       "schema": "string"
     },
     {
       "@type": "Property",
-      "name": "externalID",
+      "name": "externalIds",
       "displayName": {
-        "en": "External ID"
+        "en": "External IDs"
+      },
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "externalIdName",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "externalIdValue",
+          "schema": "string"
+        }
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "code",
+      "displayName": {
+        "en": "Code"
       },
       "writable": true,
       "schema": "string"
     },
     {
       "@type": "Property",
-      "name": "trendID",
       "displayName": {
-        "en": "Trend ID"
+        "en": "Alternate Name"
       },
-      "writable": true,
+      "name": "alternateName",
       "schema": "string",
-      "comment": "Time Series DB"
-    },
-    {
-      "@type": "Property",
-      "name": "siteID",
-      "displayName": {
-        "en": "Site ID"
-      },
-      "writable": true,
-      "schema": "string"
+      "writable": true
     },
     {
       "@type": "Property",
@@ -96,15 +114,6 @@
         "en": "Communication"
       },
       "schema": "dtmi:com:willowinc:CapabilityCommunication;1"
-    },
-    {
-      "@type": "Property",
-      "name": "description",
-      "displayName": {
-        "en": "Description"
-      },
-      "writable": true,
-      "schema": "string"
     },
     {
       "@type": "Property",

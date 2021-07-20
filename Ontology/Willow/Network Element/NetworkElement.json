@@ -32,30 +32,22 @@
     },
     {
       "@type": "Property",
-      "name": "uniqueID",
+      "name": "networkId",
       "displayName": {
-        "en": "Globally Unique ID"
+        "en": "Network ID"
       },
       "writable": true,
-      "schema": "string"
+      "schema": "string",
+      "comment": "Reference of the network to which the asset belongs. A Customer has one or many Networks. Network is considered the top-level entity for binding rail twins."
     },
     {
       "@type": "Property",
-      "name": "externalID",
       "displayName": {
-        "en": "External ID"
+        "en": "name"
       },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "code",
-      "displayName": {
-        "en": "Code"
-      },
-      "writable": true,
-      "schema": "string"
+      "name": "name",
+      "schema": "string",
+      "writable": true
     },
     {
       "@type": "Property",
@@ -68,12 +60,39 @@
     },
     {
       "@type": "Property",
-      "name": "active",
+      "name": "externalIds",
       "displayName": {
-        "en": "Active"
+        "en": "External IDs"
+      },
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "externalIdName",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "externalIdValue",
+          "schema": "string"
+        }
+      }
+    },
+    {
+      "@type": "Property",
+      "name": "code",
+      "displayName": {
+        "en": "Code"
       },
       "writable": true,
-      "schema": "boolean"
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Alternate Name"
+      },
+      "name": "alternateName",
+      "schema": "string",
+      "writable": true
     }
   ],
   "@context": "dtmi:dtdl:context;2"

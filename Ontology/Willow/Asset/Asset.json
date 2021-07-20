@@ -18,26 +18,6 @@
     },
     {
       "@type": "Relationship",
-      "description": {
-        "en": "Indicates that a given Asset hosts a logical device; e.g., a Raspberry Pi hosts a Home Assistant installation, or an IoT-connect smart camera unit hosts an IoT Edge runtime. Inverse of: hostedBy"
-      },
-      "displayName": {
-        "en": "hosts"
-      },
-      "name": "hosts",
-      "target": "dtmi:com:willowinc:rail:LogicalDevice;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "name"
-      },
-      "name": "name",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Relationship",
       "displayName": {
         "en": "installed by"
       },
@@ -58,6 +38,30 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
+      "target": "dtmi:com:willowinc:rail:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasDocument",
+      "displayName": {
+        "en": "has document"
+      },
+      "target": "dtmi:com:willowinc:rail:Document;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "maintenanceResponsibility",
+      "displayName": {
+        "en": "Maintenance Responsibilitly"
+      },
+      "target": "dtmi:com:willowinc:rail:Agent;1"
+    },
+    {
+      "@type": "Relationship",
+      "name": "maintenanceContractor",
+      "displayName": {
+        "en": "Maintenance Contractor"
+      },
       "target": "dtmi:com:willowinc:rail:Agent;1"
     },
     {
@@ -91,7 +95,7 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Room is included in an Apartment. Inverse of: includes"
+        "en": "Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Track is included in a Network. Inverse of: includes"
       },
       "displayName": {
         "en": "included in"
@@ -129,6 +133,52 @@
         "en": "serves"
       },
       "name": "serves"
+    },
+    {
+      "@type": "Property",
+      "name": "networkId",
+      "displayName": {
+        "en": "Network ID"
+      },
+      "writable": true,
+      "schema": "string",
+      "comment": "Reference of the network to which the asset belongs. A Customer has one or many Networks. Network is considered the top-level entity for binding rail twins."
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "name"
+      },
+      "name": "name",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "description",
+      "displayName": {
+        "en": "Description"
+      },
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "externalIds",
+      "displayName": {
+        "en": "External IDs"
+      },
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "externalIdName",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "externalIdValue",
+          "schema": "string"
+        }
+      }
     },
     {
       "@type": "Property",
@@ -248,98 +298,8 @@
       "writable": true
     },
     {
-      "@type": "Relationship",
-      "name": "hasDocument",
-      "displayName": {
-        "en": "has document"
-      },
-      "target": "dtmi:com:willowinc:rail:Document;1"
-    },
-    {
-      "@type": "Relationship",
-      "name": "maintenanceResponsibility",
-      "displayName": {
-        "en": "Maintenance Responsibilitly"
-      },
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "name": "maintenanceContractor",
-      "displayName": {
-        "en": "Maintenance Contractor"
-      },
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
       "@type": "Property",
-      "name": "geometryViewerID",
-      "displayName": {
-        "en": "Geometry Viewer ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference for geometry rendering (i.e. ForgeViewerID)"
-    },
-    {
-      "@type": "Property",
-      "name": "geometrySpatialReference",
-      "displayName": {
-        "en": "Geometry Spatial Reference"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference for displaying in spatial context"
-    },
-    {
-      "@type": "Property",
-      "name": "geometryExternalID",
-      "displayName": {
-        "en": "Geometry External ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference to geometry source (i.e. Revit GUID)"
-    },
-    {
-      "@type": "Property",
-      "name": "uniqueID",
-      "displayName": {
-        "en": "Globally Unique ID"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "externalID",
-      "displayName": {
-        "en": "External ID"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "description",
-      "displayName": {
-        "en": "Description"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "siteID",
-      "displayName": {
-        "en": "Site ID"
-      },
-      "writable": true,
-      "schema": "string"
-    },
-    {
-      "@type": "Property",
-      "name": "Software",
+      "name": "software",
       "displayName": {
         "en": "Software"
       },
