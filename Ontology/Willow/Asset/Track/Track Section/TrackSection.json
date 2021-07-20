@@ -35,6 +35,15 @@
     },
     {
       "@type": "Property",
+      "displayName": {
+        "en": "width"
+      },
+      "name": "width",
+      "schema": "double",
+      "writable": true
+    },
+    {
+      "@type": "Property",
       "name": "trafficFlowDirection",
       "displayName": {
         "en": "Traffic Flow Direction"

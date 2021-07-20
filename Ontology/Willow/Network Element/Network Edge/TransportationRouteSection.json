@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TransportationRouteSection;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Transportation Route Section"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:NetworkEdge;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
