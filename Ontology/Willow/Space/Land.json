@@ -5,7 +5,7 @@
     "en": "Land"
   },
   "description": {
-    "en": "A piece of land upon which one or more buildings may be situated."
+    "en": "A piece of land upon which one or more assets or buildings may be situated and is owned or operated as a unit."
   },
   "extends" : [
     "dtmi:com:willowinc:rail:Space;1"
