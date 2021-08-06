@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Monitoring;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Monitoring"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Asset;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

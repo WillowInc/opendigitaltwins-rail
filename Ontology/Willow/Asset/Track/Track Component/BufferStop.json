@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:BufferStop;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Buffer Stop"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:TrackComponent;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

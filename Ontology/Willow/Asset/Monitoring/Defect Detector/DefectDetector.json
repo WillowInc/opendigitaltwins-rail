@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrackCircuit;1",
+  "@id": "dtmi:com:willowinc:rail:DefectDetector;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Track Circuit"
+    "en": "Defect Detector"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrainDetection;1"
+    "dtmi:com:willowinc:rail:Asset;1"
   ],
   "contents": [
   ],

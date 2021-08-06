@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:AxleCounter;1",
+  "@id": "dtmi:com:willowinc:rail:Derail;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Axle Counter"
+    "en": "Derail"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrainDetection;1"
+    "dtmi:com:willowinc:rail:TrackComponent;1"
   ],
   "contents": [
   ],
