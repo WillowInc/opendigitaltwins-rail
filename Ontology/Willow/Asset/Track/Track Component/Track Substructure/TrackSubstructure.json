@@ -1,8 +1,8 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrackBallast;1",
+  "@id": "dtmi:com:willowinc:rail:TrackSubstructure;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Track Ballast"
+    "en": "Track Substructure"
   },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"

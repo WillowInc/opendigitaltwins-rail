@@ -5,7 +5,8 @@
     "en": "Switch Rail"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
+    "dtmi:com:willowinc:rail:TrackTurnoutComponent;1",
+    "dtmi:com:willowinc:rail:TrackRail;1"
   ],
   "contents": [
   ],

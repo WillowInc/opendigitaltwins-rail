@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:WheelImpactLoadDetector;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Wheel Impact Load Detector"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:DefectDetector;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

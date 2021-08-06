@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:rail:TrainDetection;1",
+  "@id": "dtmi:com:willowinc:rail:RailJoint;1",
   "@type": "Interface",
   "displayName": {
-    "en": "Train Detection"
+    "en": "Rail Joint"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:Signalling;1"
+    "dtmi:com:willowinc:rail:TrackComponent;1"
   ],
   "contents": [
   ],

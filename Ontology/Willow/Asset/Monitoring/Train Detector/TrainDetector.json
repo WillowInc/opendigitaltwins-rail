@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:TrainDetector;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Train Detector"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Signalling;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
