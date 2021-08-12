@@ -50,17 +50,9 @@
     },
     {
       "@type": "Relationship",
-      "name": "maintenanceResponsibility",
+      "name": "serviceResponsibility",
       "displayName": {
-        "en": "Maintenance Responsibilitly"
-      },
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "name": "maintenanceContractor",
-      "displayName": {
-        "en": "Maintenance Contractor"
+        "en": "Service Responsibilitly"
       },
       "target": "dtmi:com:willowinc:rail:Agent;1"
     },
