@@ -5,7 +5,7 @@
     "en": "System"
   },
   "extends" : [
-    "dtmi:com:willowinc:rail:EquipmentCollection;1"
+    "dtmi:com:willowinc:rail:AssetCollection;1"
   ],
   "contents": [
   ],
