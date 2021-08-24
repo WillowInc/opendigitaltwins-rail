@@ -14,12 +14,30 @@
       },
       {
         "@type": "Property",
+        "name": "assetComponent",
+        "displayName": {
+          "en": "Asset Component"
+        },
+        "writable": true,
+        "schema": "dtmi:com:willowinc:rail:CapabilityAssetComponent;1"
+      },
+      {
+        "@type": "Property",
+        "name": "railSection",
+        "displayName": {
+          "en": "Rail Section"
+        },
+        "writable": true,
+        "schema": "dtmi:com:willowinc:rail:CapabilityRailSection;1"
+      },
+      {
+        "@type": "Property",
         "name": "railReference",
         "displayName": {
           "en": "Rail Reference"
         },
         "writable": true,
-        "schema": "dtmi:com:willowinc:CapabilityRailReference;1"
+        "schema": "dtmi:com:willowinc:rail:CapabilityRailReference;1"
       },
       {
         "@type": "Property",
@@ -28,70 +46,26 @@
           "en": "Position"
         },
         "writable": true,
-        "schema": "dtmi:com:willowinc:CapabilityPosition;1"
+        "schema": "dtmi:com:willowinc:rail:CapabilityPosition;1"
       },
       {
         "@type": "Property",
-        "name": "railHeadWear",
+        "name": "trackGeometry",
         "displayName": {
-          "en": "Rail Head Wear"
+          "en": "Track Geometry"
         },
         "writable": true,
-        "schema": "dtmi:com:willowinc:CapabilityRailPlane;1"
+        "schema": "dtmi:com:willowinc:rail:CapabilityTrackGeometry;1"
       },
       {
         "@type": "Property",
-        "name": "gauge",
+        "name": "loss",
         "displayName": {
-          "en": "Gauge"
+          "en": "Loss"
         },
         "writable": true,
-        "schema": "boolean"
-      },
-      {
-        "@type": "Property",
-        "name": "incline",
-        "displayName": {
-          "en": "Incline"
-        },
-        "writable": true,
-        "schema": "boolean"
-      },
-      {
-        "@type": "Property",
-        "name": "twist",
-        "displayName": {
-          "en": "Twist"
-        },
-        "writable": true,
-        "schema": "dtmi:com:willowinc:CapabilityRailPlane;1"
-      },
-      {
-        "@type": "Property",
-        "name": "alignment",
-        "displayName": {
-          "en": "Alignment"
-        },
-        "writable": true,
-        "schema": "dtmi:com:willowinc:CapabilityRailPlane;1"
-      },
-      {
-        "@type": "Property",
-        "name": "cant",
-        "displayName": {
-          "en": "Cant"
-        },
-        "writable": true,
-        "schema": "boolean"
-      },
-      {
-        "@type": "Property",
-        "name": "curvature",
-        "displayName": {
-          "en": "Curvature"
-        },
-        "writable": true,
-        "schema": "boolean"
+        "schema": "boolean",
+        "comment": "Used to identify a value which is a loss from an original or maximum capacity. It can be applied to both percent and quantity."
       }
     ],
     "schemas": [
@@ -474,17 +448,59 @@
         ]
       },
       {
-        "@id": "dtmi:com:willowinc:CapabilityPosition;1",
+        "@id": "dtmi:com:willowinc:rail:CapabilityAssetComponent;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
           {
-            "name": "Gauge",
+            "name": "Rail",
             "displayName": {
-              "en": "Gauge"
+              "en": "Rail"
             },
-            "enumValue": "Gauge"
+            "enumValue": "Rail"
           },
+          {
+            "name": "Wheel",
+            "displayName": {
+              "en": "Wheel"
+            },
+            "enumValue": "Wheel"
+          }
+        ]
+      },
+      {
+        "@id": "dtmi:com:willowinc:rail:CapabilityRailSection;1",
+        "@type": "Enum",
+        "valueSchema": "string",
+        "enumValues": [
+          {
+            "name": "Head",
+            "displayName": {
+              "en": "Head"
+            },
+            "enumValue": "Head"
+          },
+          {
+            "name": "Web",
+            "displayName": {
+              "en": "Web"
+            },
+            "enumValue": "Web"
+          },
+          {
+            "name": "Foot",
+            "displayName": {
+              "en": "Foot"
+            },
+            "enumValue": "Foot"
+          }
+        ]
+      },
+      {
+        "@id": "dtmi:com:willowinc:rail:CapabilityPosition;1",
+        "@type": "Enum",
+        "valueSchema": "string",
+        "enumValues": [
           {
             "name": "GaugeFace",
             "displayName": {
@@ -498,11 +514,18 @@
               "en": "Top Face"
             },
             "enumValue": "TopFace"
+          },
+          {
+            "name": "FieldFace",
+            "displayName": {
+              "en": "Field Face"
+            },
+            "enumValue": "FieldFace"
           }
         ]
       },
       {
-        "@id": "dtmi:com:willowinc:CapabilityRailReference;1",
+        "@id": "dtmi:com:willowinc:rail:CapabilityRailReference;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
@@ -530,7 +553,7 @@
         ]
       },
       {
-        "@id": "dtmi:com:willowinc:CapabilityRailPlane;1",
+        "@id": "dtmi:com:willowinc:rail:CapabilityRailPlane;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
@@ -554,6 +577,55 @@
               "en": "Longitudinal"
             },
             "enumValue": "Longitudinal"
+          }
+        ]
+      },
+      {
+        "@id": "dtmi:com:willowinc:rail:CapabilityTrackGeometry;1",
+        "@type": "Enum",
+        "valueSchema": "string",
+        "enumValues": [
+          {
+            "name": "Gauge",
+            "displayName": {
+              "en": "Gauge"
+            },
+            "enumValue": "Gauge"
+          },
+          {
+            "name": "Curvature",
+            "displayName": {
+              "en": "Curvature"
+            },
+            "enumValue": "Curvature"
+          },
+          {
+            "name": "Cant",
+            "displayName": {
+              "en": "Cant"
+            },
+            "enumValue": "Cant"
+          },
+          {
+            "name": "Twist",
+            "displayName": {
+              "en": "Twist"
+            },
+            "enumValue": "Twist"
+          },
+          {
+            "name": "Alignment",
+            "displayName": {
+              "en": "Alignment"
+            },
+            "enumValue": "Alignment"
+          },
+          {
+            "name": "Incline",
+            "displayName": {
+              "en": "Incline"
+            },
+            "enumValue": "Incline"
           }
         ]
       }
