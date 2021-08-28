@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:com:willowinc:CapabilityTags;1",
+    "@id": "dtmi:com:willowinc:rail:CapabilityTags;1",
     "@type": "Interface",
     "displayName": "Capability Tags",
     "contents": [
@@ -23,12 +23,12 @@
       },
       {
         "@type": "Property",
-        "name": "railSection",
+        "name": "railProfile",
         "displayName": {
-          "en": "Rail Section"
+          "en": "Rail Profile"
         },
         "writable": true,
-        "schema": "dtmi:com:willowinc:rail:CapabilityRailSection;1"
+        "schema": "dtmi:com:willowinc:rail:CapabilityRailProfile;1"
       },
       {
         "@type": "Property",
@@ -65,7 +65,7 @@
         },
         "writable": true,
         "schema": "boolean",
-        "comment": "Used to identify a value which is a loss from an original or maximum capacity. It can be applied to both percent and quantity."
+        "comment": "Used to identify a value which is a loss from an original or maximum capacity. It can be applied to either a percent or a quantity."
       }
     ],
     "schemas": [
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "@id": "dtmi:com:willowinc:rail:CapabilityRailSection;1",
+        "@id": "dtmi:com:willowinc:rail:CapabilityRailProfile;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
