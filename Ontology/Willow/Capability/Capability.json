@@ -175,7 +175,7 @@
       "displayName": {
         "en": "Tags"
       },
-      "schema": "dtmi:com:willowinc:CapabilityTags;1"
+      "schema": "dtmi:com:willowinc:rail:CapabilityTags;1"
     },
     {
       "@type": "Property",
@@ -269,7 +269,6 @@
       "schema": "double",
       "comment": "Raw values from the connected system are multiplied by this scale factor when being stored in the twin"
     },
-
     {
       "@type": [
         "Property",
