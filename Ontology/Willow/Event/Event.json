@@ -126,6 +126,44 @@
       },
       "writable": true,
       "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "linearReferencePointLocation",
+      "displayName": {
+        "en": "Linear Reference Point Location"
+      },
+      "writable": true,
+      "schema": "double",
+      "comment": "Distance of a point measurement from the start of a linear reference object (isCapabiltyOf relationship to an edge)"
+    },
+    {
+      "@type": "Property",
+      "name": "linearReferenceLineLocation",
+      "displayName": {
+        "en": "Linear Reference Line Location"
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "start",
+            "displayName": {
+              "en": "Start"
+            },
+            "schema": "double"
+          },
+          {
+            "name": "end",
+            "displayName": {
+              "en": "End"
+            },
+            "schema": "double"
+          }
+        ]
+      },
+      "comment": "Start and end distances of a line measurement from the start of a linear reference object (isCapabiltyOf relationship to an edge)"
     }
   ],
   "@context": "dtmi:dtdl:context;2"
