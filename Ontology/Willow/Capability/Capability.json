@@ -181,11 +181,11 @@
     },
     {
       "@type": "Component",
-      "name": "tags",
+      "name": "categorizationProperties",
       "displayName": {
-        "en": "Tags"
+        "en": "Categorization Properties"
       },
-      "schema": "dtmi:com:willowinc:rail:CapabilityTags;1"
+      "schema": "dtmi:com:willowinc:rail:CapabilityPropertySet;1"
     },
     {
       "@type": "Property",
