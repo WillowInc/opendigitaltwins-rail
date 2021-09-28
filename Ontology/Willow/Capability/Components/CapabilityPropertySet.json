@@ -1,7 +1,7 @@
 {
-    "@id": "dtmi:com:willowinc:rail:CapabilityTags;1",
+    "@id": "dtmi:com:willowinc:rail:CapabilityPropertySet;1",
     "@type": "Interface",
-    "displayName": "Capability Tags",
+    "displayName": "Capability Property Set",
     "contents": [
       {
         "@type": "Property",
