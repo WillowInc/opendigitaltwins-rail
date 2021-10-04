@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Space Area"
   },
+  "extends" : [
+    "dtmi:com:willowinc:rail:SpaceComponent;1"
+  ],
   "contents": [
     {
       "@type": "Property",
