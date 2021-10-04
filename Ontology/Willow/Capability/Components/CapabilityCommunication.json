@@ -2,6 +2,9 @@
     "@id": "dtmi:com:willowinc:CapabilityCommunication;1",
     "@type": "Interface",
     "displayName": "Capability Communication",
+    "extends" : [
+      "dtmi:com:willowinc:rail:CapabilityComponent;1"
+    ],
     "contents": [
         {
             "@type": "Property",

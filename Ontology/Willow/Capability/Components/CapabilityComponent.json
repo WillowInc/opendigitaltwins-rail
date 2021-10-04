@@ -1,0 +1,14 @@
+{
+  "@id": "dtmi:com:willowinc:rail:CapabilityComponent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Capability Component"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:Component;1"
+  ],
+  "contents": [
+    
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

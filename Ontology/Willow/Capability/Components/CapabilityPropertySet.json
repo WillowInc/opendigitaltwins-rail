@@ -2,6 +2,9 @@
     "@id": "dtmi:com:willowinc:rail:CapabilityPropertySet;1",
     "@type": "Interface",
     "displayName": "Capability Property Set",
+    "extends" : [
+      "dtmi:com:willowinc:rail:CapabilityComponent;1"
+    ],
     "contents": [
       {
         "@type": "Property",
