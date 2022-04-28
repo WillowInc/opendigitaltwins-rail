@@ -4,7 +4,7 @@
   "displayName": {
     "en": "Service Agreement"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:ContractEvent;1"
   ],
   "contents": [
@@ -28,7 +28,7 @@
         "en": "Service Provider"
       },
       "name": "serviceProvider",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",
@@ -39,7 +39,7 @@
         "en": "Client"
       },
       "name": "client",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     }
   ],
   "@context": "dtmi:dtdl:context;2"

@@ -7,9 +7,7 @@
   "description": {
     "en": "A contiguous part of the physical world that has a 3D spatial extent and that contains or can contain sub-spaces. E.g., a Region can contain many pieces of Land, which in turn can contain many Buildings."
   },
-  "extends" : [
-
-  ],
+  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -30,7 +28,7 @@
         "en": "owned by"
       },
       "name": "ownedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",
@@ -38,7 +36,7 @@
         "en": "operated by"
       },
       "name": "operatedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",

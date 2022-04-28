@@ -4,8 +4,8 @@
   "displayName": {
     "en": "Person"
   },
-  "extends" : [
-    "dtmi:com:willowinc:rail:Agent;1"
+  "extends": [
+    "dtmi:com:willowinc:rail:Person;1"
   ],
   "contents": [
     {
@@ -35,30 +35,6 @@
     {
       "@type": "Property",
       "description": {
-        "en": "A person's personal, individual name."
-      },
-      "displayName": {
-        "en": "given name"
-      },
-      "name": "givenName",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "description": {
-        "en": "A gender designation for a Person."
-      },
-      "displayName": {
-        "en": "gender"
-      },
-      "name": "gender",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "description": {
         "en": "A person's first name (if they have one; this varies across cultural contexts)."
       },
       "displayName": {
@@ -69,36 +45,43 @@
       "writable": true
     },
     {
-      "@type": "Property",
-      "description": {
-        "en": "A person's family name."
-      },
-      "displayName": {
-        "en": "family name"
-      },
-      "name": "familyName",
-      "schema": "string",
-      "writable": true
-    },
-    {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates the Organization(s) that this Person is a member of."
+        "en": "Indicates the Client(s) that this Person is a member of."
       },
       "displayName": {
         "en": "is member of"
       },
       "name": "isMemberOf",
-      "target": "dtmi:com:willowinc:rail:Organization;1"
+      "target": "dtmi:com:willowinc:rail:Client;1"
     },
     {
       "@type": "Property",
-      "name": "companyId",
+      "name": "customProperties",
       "displayName": {
-        "en": "Company Id"
+        "en": "Custom Properties"
       },
-      "writable": true,
-      "schema": "string"
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "sourceName",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "sourceProperties",
+          "schema": {
+            "@type": "Map",
+            "mapKey": {
+              "name": "propertyName",
+              "schema": "string"
+            },
+            "mapValue": {
+              "name": "propertyValue",
+              "schema": "string"
+            }
+          }
+        }
+      }
     }
   ],
   "@context": "dtmi:dtdl:context;2"

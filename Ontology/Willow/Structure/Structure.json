@@ -4,9 +4,7 @@
   "displayName": {
     "en": "Structure"
   },
-  "extends" : [
-
-  ],
+  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -14,7 +12,7 @@
         "en": "commissioned by"
       },
       "name": "commissionedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",
@@ -22,7 +20,7 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",
@@ -30,7 +28,7 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
+      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",
@@ -39,14 +37,6 @@
         "en": "has document"
       },
       "target": "dtmi:com:willowinc:rail:Document;1"
-    },
-    {
-      "@type": "Relationship",
-      "name": "serviceResponsibility",
-      "displayName": {
-        "en": "Service Responsibilitly"
-      },
-      "target": "dtmi:com:willowinc:rail:Agent;1"
     },
     {
       "@type": "Relationship",
