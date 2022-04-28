@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:willowinc:rail:RemoteDraggingEquipmentDetector;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Remote Dragging Equipment Detector"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:DefectDetector;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}
