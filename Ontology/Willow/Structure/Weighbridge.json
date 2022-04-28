@@ -1,0 +1,15 @@
+{
+    "@id": "dtmi:com:willowinc:rail:Weighbridge;1",
+    "@type": "Interface",
+    "description": {
+        "en": "A truck scale, weighbridge or railroad scale is a large set of scales, usually mounted permanently on a concrete foundation, that is used to weigh entire rail or road vehicles and their contents."
+    },
+    "displayName": {
+        "en": "Weighbridge"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Structure;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

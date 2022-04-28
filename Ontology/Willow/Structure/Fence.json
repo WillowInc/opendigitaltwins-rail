@@ -1,0 +1,15 @@
+{
+    "@id": "dtmi:com:willowinc:rail:Fence;1",
+    "@type": "Interface",
+    "description": {
+        "en": "A fence is a structure that encloses an area, typically outdoors, and is usually constructed from posts that are connected by boards, wire, rails or netting. A fence differs from a wall in not having a solid foundation along its whole length."
+    },
+    "displayName": {
+        "en": "Fence"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Structure;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

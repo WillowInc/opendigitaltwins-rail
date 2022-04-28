@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:willowinc:rail:InsulatedRailJoint;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Insulated Rail Joint"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Signalling;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

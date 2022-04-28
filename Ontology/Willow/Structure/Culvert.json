@@ -1,0 +1,15 @@
+{
+    "@id": "dtmi:com:willowinc:rail:Culvert;1",
+    "@type": "Interface",
+    "description": {
+        "en": "A culvert is a structure that channels water past an obstacle or to channel a subterranean waterway. Typically embedded so as to be surrounded by soil, a culvert may be made from a pipe, reinforced concrete or other material."
+    },
+    "displayName": {
+        "en": "Culvert"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Structure;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

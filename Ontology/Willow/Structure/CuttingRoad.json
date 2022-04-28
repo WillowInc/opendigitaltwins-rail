@@ -1,0 +1,15 @@
+{
+    "@id": "dtmi:com:willowinc:rail:CuttingRoad;1",
+    "@type": "Interface",
+    "description": {
+        "en": "In civil engineering, a cut or cutting is where soil or rock from a relative rise along a route is removed. The term is also used in river management to speed a waterway's flow by short-cutting a meander. Cuts are typically used in road, rail, and canal construction to reduce the length and grade of a route."
+    },
+    "displayName": {
+        "en": "Cutting Road/Rail"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Structure;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

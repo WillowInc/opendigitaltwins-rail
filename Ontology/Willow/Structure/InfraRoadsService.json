@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:willowinc:rail:InfraRoadsService;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Infra Roads Service"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Structure;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}
