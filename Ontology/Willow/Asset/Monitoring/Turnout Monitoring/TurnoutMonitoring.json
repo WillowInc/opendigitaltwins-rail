@@ -4,10 +4,9 @@
   "displayName": {
     "en": "Turnout Monitoring"
   },
-  "extends" : [
-    "dtmi:com:willowinc:rail:Signalling;1"
+  "extends": [
+    "dtmi:com:willowinc:rail:Monitoring;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": "dtmi:dtdl:context;2"
 }

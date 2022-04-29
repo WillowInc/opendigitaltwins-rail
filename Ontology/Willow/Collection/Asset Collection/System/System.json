@@ -4,10 +4,9 @@
   "displayName": {
     "en": "System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:AssetCollection;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": "dtmi:dtdl:context;2"
 }

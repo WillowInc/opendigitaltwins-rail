@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:willowinc:rail:VideoImagingSystem;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Video Imaging System"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Monitoring;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}

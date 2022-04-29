@@ -1,12 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:Capability;1",
+  "@id": "dtmi:com:willowinc:rail:Capability;1",
   "@type": "Interface",
   "displayName": {
     "en": "Capability"
   },
-  "extends": [
-
-  ],
+  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -63,21 +61,12 @@
     },
     {
       "@type": "Property",
-      "name": "externalIds",
+      "name": "externalId",
       "displayName": {
-        "en": "External IDs"
+        "en": "External ID"
       },
-      "schema": {
-        "@type": "Map",
-        "mapKey": {
-          "name": "externalIdName",
-          "schema": "string"
-        },
-        "mapValue": {
-          "name": "externalIdValue",
-          "schema": "string"
-        }
-      }
+      "writable": true,
+      "schema": "string"
     },
     {
       "@type": "Property",
@@ -145,24 +134,6 @@
     },
     {
       "@type": "Property",
-      "name": "connectorID",
-      "displayName": {
-        "en": "Connector ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Willow Connector identifier which manages the Capabiltiy"
-    },
-    {
-      "@type": "Component",
-      "name": "communication",
-      "displayName": {
-        "en": "Communication"
-      },
-      "schema": "dtmi:com:willowinc:CapabilityCommunication;1"
-    },
-    {
-      "@type": "Property",
       "name": "lastValueTime",
       "displayName": {
         "en": "Last Value Time"
@@ -178,14 +149,6 @@
       },
       "writable": true,
       "schema": "string"
-    },
-    {
-      "@type": "Component",
-      "name": "categorizationProperties",
-      "displayName": {
-        "en": "Categorization Properties"
-      },
-      "schema": "dtmi:com:willowinc:rail:CapabilityPropertySet;1"
     },
     {
       "@type": "Property",
@@ -210,42 +173,6 @@
               "en": "Maximum"
             },
             "schema": "double"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "interpolation",
-      "displayName": {
-        "en": "Interpolation"
-      },
-      "writable": true,
-      "schema": {
-        "@id": "dtmi:com:willowinc:CapabilityInterpolation;1",
-        "@type": "Enum",
-        "valueSchema": "string",
-        "enumValues": [
-          {
-            "name": "linear",
-            "displayName": {
-              "en": "linear"
-            },
-            "enumValue": "linear"
-          },
-          {
-            "name": "stepForward",
-            "displayName": {
-              "en": "Step Forward"
-            },
-            "enumValue": "stepForward"
-          },
-          {
-            "name": "stepBackward",
-            "displayName": {
-              "en": "Step Backward"
-            },
-            "enumValue": "stepBackward"
           }
         ]
       }
@@ -360,8 +287,6 @@
       "comment": "Start and end distances of a line measurement from the start of a linear reference object (isCapabiltyOf relationship to an edge)"
     }
   ],
-  "schemas": [
-
-  ],
+  "schemas": [],
   "@context": "dtmi:dtdl:context;2"
 }

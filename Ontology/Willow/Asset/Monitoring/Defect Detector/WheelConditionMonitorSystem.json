@@ -1,0 +1,12 @@
+{
+    "@id": "dtmi:com:willowinc:rail:WheelConditionMonitorSystem;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Wheel Condition Monitor System"
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:DefectDetector;1"
+    ],
+    "contents": [],
+    "@context": "dtmi:dtdl:context;2"
+}
