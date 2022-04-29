@@ -4,10 +4,8 @@
   "displayName": {
     "en": "Train Detector"
   },
-  "extends" : [
-    "dtmi:com:willowinc:rail:Signalling;1"
-  ],
-  "contents": [
+  "extends": [
+    "dtmi:com:willowinc:rail:Monitoring;1"
   ],
   "@context": "dtmi:dtdl:context;2"
 }

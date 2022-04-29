@@ -7,7 +7,6 @@
   "description": {
     "en": "A contiguous part of the physical world that has a 3D spatial extent and that contains or can contain sub-spaces. E.g., a Region can contain many pieces of Land, which in turn can contain many Buildings."
   },
-  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -18,25 +17,6 @@
         "en": "served by"
       },
       "name": "servedBy"
-    },
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "Property that defines the legal owner(s) of a given entity. Inverse of: owns"
-      },
-      "displayName": {
-        "en": "owned by"
-      },
-      "name": "ownedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "operated by"
-      },
-      "name": "operatedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
       "@type": "Relationship",

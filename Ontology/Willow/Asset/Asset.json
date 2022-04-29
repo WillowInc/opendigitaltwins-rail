@@ -4,16 +4,7 @@
   "displayName": {
     "en": "Asset"
   },
-  "extends": [],
   "contents": [
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "created by"
-      },
-      "name": "createdBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
     {
       "@type": "Relationship",
       "name": "hasDocument",
@@ -126,6 +117,14 @@
       "displayName": {
         "en": "External ID"
       },
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Created by"
+      },
+      "name": "createdBy",
       "schema": "string"
     },
     {

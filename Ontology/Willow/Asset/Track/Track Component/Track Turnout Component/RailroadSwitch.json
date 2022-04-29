@@ -4,10 +4,8 @@
   "displayName": {
     "en": "Railroad Switch"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
-  ],
-  "contents": [
   ],
   "@context": "dtmi:dtdl:context;2"
 }

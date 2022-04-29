@@ -10,6 +10,5 @@
     "extends": [
         "dtmi:com:willowinc:rail:Structure;1"
     ],
-    "contents": [],
     "@context": "dtmi:dtdl:context;2"
 }

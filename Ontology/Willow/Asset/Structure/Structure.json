@@ -4,32 +4,10 @@
   "displayName": {
     "en": "Structure"
   },
-  "extends": [],
+  "extends": [
+    "dtmi:com:willowinc:rail:Asset;1"
+  ],
   "contents": [
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "commissioned by"
-      },
-      "name": "commissionedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "installed by"
-      },
-      "name": "installedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "serviced by"
-      },
-      "name": "servicedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
     {
       "@type": "Relationship",
       "name": "hasDocument",

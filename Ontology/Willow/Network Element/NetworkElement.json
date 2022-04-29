@@ -4,9 +4,6 @@
   "displayName": {
     "en": "Network Element"
   },
-  "extends" : [
-
-  ],
   "contents": [
     {
       "@type": "Relationship",
@@ -60,21 +57,11 @@
     },
     {
       "@type": "Property",
-      "name": "externalIds",
+      "name": "externalId",
       "displayName": {
-        "en": "External IDs"
+        "en": "External ID"
       },
-      "schema": {
-        "@type": "Map",
-        "mapKey": {
-          "name": "externalIdName",
-          "schema": "string"
-        },
-        "mapValue": {
-          "name": "externalIdValue",
-          "schema": "string"
-        }
-      }
+      "schema": "string"
     },
     {
       "@type": "Property",
