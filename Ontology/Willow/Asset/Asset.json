@@ -9,25 +9,9 @@
     {
       "@type": "Relationship",
       "displayName": {
-        "en": "commissioned by"
+        "en": "created by"
       },
-      "name": "commissionedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "installed by"
-      },
-      "name": "installedBy",
-      "target": "dtmi:com:willowinc:rail:Person;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "manufactured by"
-      },
-      "name": "manufacturedBy",
+      "name": "createdBy",
       "target": "dtmi:com:willowinc:rail:Person;1"
     },
     {
@@ -58,12 +42,23 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Points to sub-entities that share the same base type (i.e., Spaces only have Spaces as parts, Assets only have Assets as parts, etc.). Inverse of: isPartOf"
+        "en": "Points to sub-entities that share the same base type (i.e., Assets only have Assets as parts). Inverse of: isPartOf"
       },
       "displayName": {
         "en": "has part"
       },
       "name": "hasPart",
+      "target": "dtmi:com:willowinc:rail:Asset;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates a super-entity of the same base type (i.e., Assets only have Assets as parents). Inverse of: hasPart"
+      },
+      "displayName": {
+        "en": "is part of"
+      },
+      "name": "isPartOf",
       "target": "dtmi:com:willowinc:rail:Asset;1"
     },
     {
@@ -76,17 +71,6 @@
       },
       "name": "includedIn",
       "target": "dtmi:com:willowinc:rail:Collection;1"
-    },
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "Indicates a super-entity of the same base type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc). Inverse of: hasPart"
-      },
-      "displayName": {
-        "en": "is part of"
-      },
-      "name": "isPartOf",
-      "target": "dtmi:com:willowinc:rail:Asset;1"
     },
     {
       "@type": "Relationship",
@@ -138,202 +122,63 @@
     },
     {
       "@type": "Property",
-      "name": "externalIds",
+      "name": "externalId",
       "displayName": {
-        "en": "External IDs"
+        "en": "External ID"
       },
-      "schema": {
-        "@type": "Map",
-        "mapKey": {
-          "name": "externalIdName",
-          "schema": "string"
-        },
-        "mapValue": {
-          "name": "externalIdValue",
-          "schema": "string"
-        }
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "customTags",
-      "displayName": {
-        "en": "Custom Tags"
-      },
-      "schema": {
-        "@type": "Map",
-        "mapKey": {
-          "name": "tagName",
-          "schema": "string"
-        },
-        "mapValue": {
-          "name": "tagValue",
-          "schema": "boolean"
-        }
-      }
-    },
-    {
-      "@type": "Property",
-      "name": "customProperties",
-      "displayName": {
-        "en": "Custom Properties"
-      },
-      "schema": {
-        "@type": "Map",
-        "mapKey": {
-          "name": "sourceName",
-          "schema": "string"
-        },
-        "mapValue": {
-          "name": "sourceProperties",
-          "schema": {
-            "@type": "Map",
-            "mapKey": {
-              "name": "propertyName",
-              "schema": "string"
-            },
-            "mapValue": {
-              "name": "propertyValue",
-              "schema": "string"
-            }
-          }
-        }
-      }
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "commission date"
-      },
-      "name": "commissionDate",
-      "schema": "date",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "expected end-of-life"
-      },
-      "name": "expectedEndOfLife",
-      "schema": "date",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "expected life"
-      },
-      "name": "expectedLife",
-      "schema": "duration",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "expected replacement cost"
-      },
-      "name": "expectedReplacementCost",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "initial cost"
-      },
-      "name": "initialCost",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "installation date"
-      },
-      "name": "installationDate",
-      "schema": "date",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "maintenance interval"
-      },
-      "name": "maintenanceInterval",
-      "schema": "duration",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "turnover date"
-      },
-      "name": "turnoverDate",
-      "schema": "date",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "IP address"
-      },
-      "name": "IPAddress",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "MAC address"
-      },
-      "name": "MACAddress",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "model number"
-      },
-      "name": "modelNumber",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "physical tag number"
-      },
-      "name": "physicalTagNumber",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "serial number"
-      },
-      "name": "serialNumber",
-      "schema": "string",
-      "writable": true
-    },
-    {
-      "@type": "Property",
-      "name": "software",
-      "displayName": {
-        "en": "Software"
-      },
-      "writable": true,
       "schema": "string"
     },
     {
       "@type": "Property",
-      "name": "comments",
+      "name": "status",
       "displayName": {
-        "en": "Comments"
+        "en": "Status"
       },
-      "writable": true,
       "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "isComponent",
+      "displayName": {
+        "en": "Is Component"
+      },
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "assetProperties",
+      "displayName": {
+        "en": "Asset Properties"
+      },
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "entityName",
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "entityValue",
+          "schema": "string"
+        }
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Commission Start Date"
+      },
+      "name": "commissionStartDate",
+      "schema": "date",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Commission End Date"
+      },
+      "name": "commissionEndDate",
+      "schema": "date",
+      "writable": true
     },
     {
       "@type": "Property",
