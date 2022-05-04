@@ -4,10 +4,9 @@
   "displayName": {
     "en": "Sensor"
   },
-  "extends" : [
-    "dtmi:com:willowinc:Capability;1"
+  "extends": [
+    "dtmi:com:willowinc:rail:Capability;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": "dtmi:dtdl:context;2"
 }
