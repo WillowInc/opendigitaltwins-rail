@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Sensor;1",
+  "@id": "dtmi:com:willowinc:rail:Sensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sensor"
