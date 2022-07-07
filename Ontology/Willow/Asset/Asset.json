@@ -4,42 +4,7 @@
   "displayName": {
     "en": "Asset"
   },
-  "extends" : [
-
-  ],
   "contents": [
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "commissioned by"
-      },
-      "name": "commissionedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "installed by"
-      },
-      "name": "installedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "manufactured by"
-      },
-      "name": "manufacturedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "serviced by"
-      },
-      "name": "servicedBy",
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
     {
       "@type": "Relationship",
       "name": "hasDocument",
@@ -50,28 +15,12 @@
     },
     {
       "@type": "Relationship",
-      "name": "serviceResponsibility",
-      "displayName": {
-        "en": "Service Responsibilitly"
-      },
-      "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
       "displayName": {
         "en": "located in"
       },
       "minMultiplicity": 0,
       "name": "locatedIn",
       "target": "dtmi:com:willowinc:rail:Space;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "has capability"
-      },
-      "name": "hasCapability",
-      "target": "dtmi:com:willowinc:rail:Capability;1"
     },
     {
       "@type": "Relationship",
