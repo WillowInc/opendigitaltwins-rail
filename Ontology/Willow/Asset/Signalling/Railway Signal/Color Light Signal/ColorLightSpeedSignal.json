@@ -1,0 +1,13 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ColorLightSpeedSignal;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Color Light Speed Signal"
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:ColorLightSignal;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
