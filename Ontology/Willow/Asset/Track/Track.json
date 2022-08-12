@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track"
   },
+  "description": {
+    "en": "A structure on a railway consisting of rails, fasteners, joints, sleepers, ballast, and subgrade."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Asset;1"
   ],

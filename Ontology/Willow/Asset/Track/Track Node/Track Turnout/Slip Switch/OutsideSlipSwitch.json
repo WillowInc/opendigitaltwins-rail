@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Outside Slip Switch"
   },
+  "description": {
+    "en": "A slip switch which has the movable switch blades outside the diamond formed by the crossing tracks."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:SlipSwitch;1"
   ],

@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Wye Turnout"
   },
+  "description": {
+    "en": "A simple turnout where there are symmetrically diverging tracks in opposite directions making the turnout appear similar in shape to that of the letter Y, a.k.a. equilateral turnout, equilateral switch (American English)."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:SimpleTurnout;1"
   ],

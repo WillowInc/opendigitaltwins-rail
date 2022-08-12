@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Derail"
   },
+  "description": {
+    "en": "A device used to prevent fouling of a rail track or collision with anything present on a track by derailing the equipment that rolls over or through it."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

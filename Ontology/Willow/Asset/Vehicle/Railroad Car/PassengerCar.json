@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Passenger Car"
   },
+  "description": {
+    "en": "A railroad car dedicated to carrying people."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:RailroadCar;1"
   ],

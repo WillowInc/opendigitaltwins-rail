@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Sub-Ballast"
   },
+  "description": {
+    "en": "The solid foundation which provides support for the ballast and prevents ingress of water from the underlying ground."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackSubstructure;1"
   ],

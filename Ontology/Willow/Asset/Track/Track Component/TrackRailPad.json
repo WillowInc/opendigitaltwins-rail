@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Rail Pad"
   },
+  "description": {
+    "en": "A mat which is placed between the rail and the sleeper to protect the sleeper from wearing and impacting."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Double Slip Switch"
   },
+  "description": {
+    "en": "A slip switch which has four movable switch blades which allows trains to either cross or move to the other track while traveling two directions."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:SlipSwitch;1"
   ],

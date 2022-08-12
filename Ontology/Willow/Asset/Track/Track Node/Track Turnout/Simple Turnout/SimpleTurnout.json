@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Simple Turnout"
   },
+  "description": {
+    "en": "A track turnout which has one track entering and diverging into two tracks, a.k.a. single turnout."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackTurnout;1"
   ],

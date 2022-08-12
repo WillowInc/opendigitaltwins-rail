@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Railroad Car"
   },
+  "description": {
+    "en": "A vehicle used for carrying cargo or passengers on a railway, a.k.a. railcar (American English), train car. When railroad cars are coupled together and hauled by a locomotive, they form a train."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Vehicle;1"
   ],

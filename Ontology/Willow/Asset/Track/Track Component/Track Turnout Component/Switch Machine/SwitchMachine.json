@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Switch Machine"
   },
+  "description": {
+    "en": "A machinery consisting of a motor which changes the position of the switch blades, locks the blades and, detects the position of the blades, a.k.a. switch motor, point machine, point motor."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackTurnoutComponent;1"
   ],

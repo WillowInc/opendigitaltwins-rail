@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Rail Joint"
   },
+  "description": {
+    "en": "A device used to join two rails together end-to-end to make a continuous surface for trains to run in a jointed track design."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

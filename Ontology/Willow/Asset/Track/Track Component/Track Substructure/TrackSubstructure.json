@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Substructure"
   },
+  "description": {
+    "en": "The foundation of a railway track which consists of the ballast, sub-ballast, subgrade, and drainage upon which the superstructure lies."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

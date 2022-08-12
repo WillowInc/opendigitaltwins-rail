@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Three-Way Turnout"
   },
+  "description": {
+    "en": "A track turnout which has one track entering and diverging into three tracks, a.k.a. three-way switch."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackTurnout;1"
   ],

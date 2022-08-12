@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Crossing"
   },
+  "description": {
+    "en": "A node in a railway which permits two tracks to cross each other."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackNode;1"
   ],

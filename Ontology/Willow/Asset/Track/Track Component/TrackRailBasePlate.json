@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Rail Base Plate"
   },
+  "description": {
+    "en": "A panel which is placed between a rail and sleeper to spread the load of the rail and maintain the rail gauge."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

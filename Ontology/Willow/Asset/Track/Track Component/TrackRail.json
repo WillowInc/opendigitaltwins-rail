@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Rail"
   },
+  "description": {
+    "en": "The primary component of a railway track which is a beam upon which the train wheels sit and has as a left and right pair."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

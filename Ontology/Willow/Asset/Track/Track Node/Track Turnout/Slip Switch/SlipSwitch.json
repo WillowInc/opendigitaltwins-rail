@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Slip Switch"
   },
+  "description": {
+    "en": "A track turnout which has a crossing and a set of movable switch blades which allow trains to both cross another track and change to the other track."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackTurnout;1"
   ],

@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Ballast"
   },
+  "description": {
+    "en": "The top portion of the trackbed upon which the sleepers are laid which is used to bear the load from the sleepers and facilitate drainage."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackSubstructure;1"
   ],
