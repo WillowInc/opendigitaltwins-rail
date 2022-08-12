@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Vehicle"
   },
+  "description": {
+    "en": "A machine that transports people or cargo such as a car, truck, bus, train, boat, or airplane."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Asset;1"
   ],

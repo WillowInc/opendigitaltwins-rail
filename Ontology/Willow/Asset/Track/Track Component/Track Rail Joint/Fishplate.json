@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:com:willowinc:rail:Fishplate;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Fishplate"
+  },
+  "description": {
+    "en": "A perforated steel plate bolted to ends ot two rails to bond them together, a.k.a. joint bar (American English)."
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:RailJoint;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

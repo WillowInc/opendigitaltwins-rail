@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Left-hand Turnout"
   },
+  "description": {
+    "en": "A simple turnout where the diverging track leaves towards the left side of the straight (through) track."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:SimpleTurnout;1"
   ],

@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Slab"
   },
+  "description": {
+    "en": "A rigid construction of concrete or asphalt used in a ballastless track design upon which the rails are fastened."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

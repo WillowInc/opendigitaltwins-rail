@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Subgrade"
   },
+  "description": {
+    "en": "The layer in a track between the trackbed (i.e. ballast) and the underlying subsoil."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackSubstructure;1"
   ],

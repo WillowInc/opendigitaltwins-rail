@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Sleeper"
   },
+  "description": {
+    "en": "A rectangular object on which the rails are supported and fixed transversely, a.k.a railroad tie (American English)."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

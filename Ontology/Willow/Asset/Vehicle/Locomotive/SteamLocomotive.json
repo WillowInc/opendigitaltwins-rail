@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Steam Locomotive"
   },
+  "description": {
+    "en": "A locomotive powered by the expansion of steam."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Locomotive;1"
   ],

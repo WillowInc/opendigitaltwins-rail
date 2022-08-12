@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Freight Car"
   },
+  "description": {
+    "en": "A railroad car dedicated to carrying cargo."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:RailroadCar;1"
   ],

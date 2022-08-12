@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Locomotive"
   },
+  "description": {
+    "en": "A rail transport vehicle that provides the motive power for a train, a.k.a. engine."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Vehicle;1"
   ],

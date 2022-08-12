@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Bridge Expansion Rail Joint"
   },
+  "description": {
+    "en": "An expansion joint which allows longitudinal movements of rail as it connects to a railway bridge."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:ExpansionRailJoint;1"
   ],

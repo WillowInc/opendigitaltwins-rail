@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Asset"
   },
+  "description": {
+    "en": "A physical entity which has value, a distinct identity, and is typically manufacturered as a product."
+  },
   "extends" : [
 
   ],

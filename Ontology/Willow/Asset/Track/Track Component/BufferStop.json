@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Buffer Stop"
   },
+  "description": {
+    "en": "A device used to prevent railway vehicles from going past the end of a physical section of track, a.k.a. stopblock (American English)."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],

@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Electric Locomotive"
   },
+  "description": {
+    "en": "A locomotive powered only by electricity."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Locomotive;1"
   ],
