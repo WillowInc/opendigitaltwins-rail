@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Node"
   },
+  "description": {
+    "en": "A vertex in a railway track topology which is connected to track sections and allows trains to cross or switch tracks."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Track;1"
   ],

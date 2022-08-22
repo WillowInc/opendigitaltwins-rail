@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Guard Rail"
   },
+  "description": {
+    "en": "A short piece of rail placed alongside the stock rail opposite the frog to ensure the train wheels follow the appropriate direction, a.k.a. check rail."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:TrackTurnoutComponent;1",
     "dtmi:com:willowinc:rail:TrackRail;1"

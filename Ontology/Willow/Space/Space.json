@@ -213,6 +213,14 @@
         "en": "Area"
       },
       "schema": "dtmi:com:willowinc:rail:SpaceArea;1"
+    },
+    {
+      "@type": "Component",
+      "name": "timeZone",
+      "displayName": {
+        "en": "Time Zone"
+      },
+      "schema": "dtmi:com:willowinc:rail:TimeZone;1"
     }
   ],
   "@context": "dtmi:dtdl:context;2"

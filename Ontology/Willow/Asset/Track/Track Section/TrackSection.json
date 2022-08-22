@@ -4,6 +4,9 @@
   "displayName": {
     "en": "Track Section"
   },
+  "description": {
+    "en": "An edge in a railway track topology which is connected to track nodes or other track sections."
+  },
   "extends" : [
     "dtmi:com:willowinc:rail:Track;1"
   ],
