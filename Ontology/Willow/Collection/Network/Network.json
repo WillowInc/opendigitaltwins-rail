@@ -26,6 +26,15 @@
     },
     {
       "@type": "Property",
+      "name": "webMapId",
+      "displayName": {
+        "en": "Web Map ID"
+      },
+      "description": "This defines an ArcGIS-specific web map ID.",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
       "name": "unitOfMeasurement",
       "displayName": {
         "en": "Unit of Measurement"
