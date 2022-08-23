@@ -1,0 +1,51 @@
+{
+    "@id": "dtmi:com:willowinc:rail:MapOption;1",
+    "@type": "Interface",
+    "displayName": {
+        "en": "Map Option"
+    },
+    "description": {
+        "en": "This assigns a default 'fly to' coordinate (longitude, latitude, zoom, pitch, bearing) for the map view."
+    },
+    "extends": [
+        "dtmi:com:willowinc:rail:Component;1"
+    ],
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "centerLongitude",
+            "displayName": "Center Longitude",
+            "writable": true,
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "centerLatitude",
+            "displayName": "Center Latitude",
+            "writable": true,
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "zoom",
+            "displayName": "Zoom",
+            "writable": true,
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "pitch",
+            "displayName": "Pitch",
+            "writable": true,
+            "schema": "float"
+        },
+        {
+            "@type": "Property",
+            "name": "bearing",
+            "displayName": "Bearing",
+            "writable": true,
+            "schema": "float"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

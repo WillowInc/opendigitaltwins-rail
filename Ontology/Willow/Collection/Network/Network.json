@@ -4,7 +4,7 @@
   "displayName": {
     "en": "Network"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Collection;1"
   ],
   "contents": [
@@ -15,6 +15,23 @@
         "en": "Time Zone"
       },
       "schema": "dtmi:com:willowinc:rail:TimeZone;1"
+    },
+    {
+      "@type": "Component",
+      "name": "mapOption",
+      "displayName": {
+        "en": "Map Option"
+      },
+      "schema": "dtmi:com:willowinc:rail:MapOption;1"
+    },
+    {
+      "@type": "Property",
+      "name": "unitOfMeasurement",
+      "displayName": {
+        "en": "Unit of Measurement"
+      },
+      "description": "This defines whether a network uses the 'metric' or 'imperial' measurement systems.",
+      "schema": "string"
     }
   ],
   "@context": "dtmi:dtdl:context;2"
