@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:com:willowinc:rail:InsulatedRailJoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Insulated Rail Joint"
+  },
+  "description": {
+    "en": "A joint which prevents electrical current from flowing between the ends of two adjoining rails."
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:RailJoint;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

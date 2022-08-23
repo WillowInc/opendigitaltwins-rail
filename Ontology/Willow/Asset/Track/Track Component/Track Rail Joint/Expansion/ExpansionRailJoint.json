@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:com:willowinc:rail:ExpansionRailJoint;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Expansion Rail Joint"
+  },
+  "description": {
+    "en": "A joint which leaves a gap between rails to allow longitudinal movements between two adjoining rails."
+  },
+  "extends" : [
+    "dtmi:com:willowinc:rail:RailJoint;1"
+  ],
+  "contents": [
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
