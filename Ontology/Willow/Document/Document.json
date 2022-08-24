@@ -132,6 +132,33 @@
           }
         }
       }
+    },
+    {
+      "@type": "Property",
+      "name": "uiProperties",
+      "displayName": {
+        "en": "UI Properties"
+      },
+      "description": {
+        "en": "A set of properties for user interface components to leverage when retreiving the twin for functionality such as sorting, coloring, and placement."
+      },
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "uiComponentName",
+          "description": {
+            "en": "The name of a user interface component for which properties are desired to be set (i.e. ArcGISWebMap, TimeSeriesViewer)."
+          },
+          "schema": "string"
+        },
+        "mapValue": {
+          "name": "uiComponentProperties",
+          "description": {
+            "en": "The properties or settings stored as a JSON string for the user interface to deserialize (i.e. {\"zoom\": 90, \"center\": [10, 40]})."
+          },
+          "schema": "string"
+        }
+      }
     }
   ],
   "@context": "dtmi:dtdl:context;2"
