@@ -27,6 +27,17 @@
       "target": "dtmi:com:willowinc:rail:Document;1"
     },
     {
+      "@type": "Relationship",
+      "name": "hasSettings",
+      "displayName": {
+        "en": "has settings"
+      },
+      "description": {
+        "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
+      },
+      "target": "dtmi:com:willowinc:rail:Settings;1"
+    },
+    {
       "@type": "Property",
       "name": "networkId",
       "displayName": {
