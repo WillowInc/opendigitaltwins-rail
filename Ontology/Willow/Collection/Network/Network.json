@@ -17,5 +17,7 @@
       "schema": "dtmi:com:willowinc:rail:TimeZone;1"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }
