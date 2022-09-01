@@ -54,5 +54,7 @@
       "target": "dtmi:com:willowinc:rail:Person;1"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }

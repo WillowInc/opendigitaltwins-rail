@@ -395,5 +395,7 @@
       "comment": "Start and end distances of a line from the start of a linear reference object"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }
