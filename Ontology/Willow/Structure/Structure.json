@@ -7,9 +7,7 @@
   "description": {
     "en": "An entity which is constructed."
   },
-  "extends" : [
-
-  ],
+  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -34,14 +32,6 @@
       },
       "name": "servicedBy",
       "target": "dtmi:com:willowinc:rail:Agent;1"
-    },
-    {
-      "@type": "Relationship",
-      "name": "hasDocument",
-      "displayName": {
-        "en": "has document"
-      },
-      "target": "dtmi:com:willowinc:rail:Document;1"
     },
     {
       "@type": "Relationship",

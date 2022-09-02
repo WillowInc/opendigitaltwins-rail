@@ -4,18 +4,8 @@
   "displayName": {
     "en": "Collection"
   },
-  "extends" : [
-
-  ],
+  "extends": [],
   "contents": [
-    {
-      "@type": "Relationship",
-      "name": "hasDocument",
-      "displayName": {
-        "en": "has document"
-      },
-      "target": "dtmi:com:willowinc:rail:Document;1"
-    },
     {
       "@type": "Relationship",
       "name": "hasSettings",
