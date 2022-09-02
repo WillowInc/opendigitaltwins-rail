@@ -10,6 +10,17 @@
   "contents": [
     {
       "@type": "Relationship",
+      "name": "hasSettings",
+      "displayName": {
+        "en": "has settings"
+      },
+      "description": {
+        "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
+      },
+      "target": "dtmi:com:willowinc:rail:Settings;1"
+    },
+    {
+      "@type": "Relationship",
       "description": {
         "en": "The entity responsible for generating or producing the event."
       },
@@ -176,5 +187,7 @@
       "comment": "Start and end distances of a line measurement from the start of a linear reference object (isCapabiltyOf relationship to an edge)"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }

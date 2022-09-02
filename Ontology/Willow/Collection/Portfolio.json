@@ -25,5 +25,7 @@
       "target": "dtmi:com:willowinc:rail:Agent;1"
     }
   ],
-  "@context": "dtmi:dtdl:context;2"
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }
