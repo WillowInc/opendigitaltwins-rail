@@ -7,13 +7,11 @@
   "displayName": {
     "en": "Bridge"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Structure;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

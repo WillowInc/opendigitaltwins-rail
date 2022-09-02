@@ -7,12 +7,11 @@
   "description": {
     "en": "An element which is used to comprise the railway track, e.g. rail, fastener, joint, sleeper, ballast, subgrade, or switch machine."
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Track;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

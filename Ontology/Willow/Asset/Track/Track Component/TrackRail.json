@@ -7,12 +7,11 @@
   "description": {
     "en": "The primary component of a railway track which is a beam upon which the train wheels sit and has as a left and right pair."
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:TrackComponent;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

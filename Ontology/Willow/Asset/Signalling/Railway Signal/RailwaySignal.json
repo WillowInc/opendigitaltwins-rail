@@ -4,12 +4,11 @@
   "displayName": {
     "en": "Railway Signal"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Signalling;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

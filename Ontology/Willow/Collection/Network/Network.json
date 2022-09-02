@@ -4,7 +4,7 @@
   "displayName": {
     "en": "Network"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Collection;1"
   ],
   "contents": [
@@ -18,6 +18,6 @@
     }
   ],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

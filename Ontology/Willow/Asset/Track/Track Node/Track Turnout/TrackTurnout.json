@@ -7,12 +7,11 @@
   "description": {
     "en": "A mechanical installation enabling trains to be guided from one track to another, a.k.a. railroad switch (American English), set of points (British English)."
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:TrackNode;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

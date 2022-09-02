@@ -7,13 +7,11 @@
   "displayName": {
     "en": "Culvert"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:Tunnel;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }

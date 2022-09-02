@@ -7,13 +7,12 @@
   "description": {
     "en": "A movable rail in a turnout which guides the train wheels towards either the straight or diverging track, a.k.a. point (American English), point blade (British English)."
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:willowinc:rail:TrackTurnoutComponent;1",
     "dtmi:com:willowinc:rail:TrackRail;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;2"
   ]
 }
