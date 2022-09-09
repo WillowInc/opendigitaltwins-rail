@@ -25,12 +25,24 @@
       "target": "dtmi:com:willowinc:rail:NetworkNode;1"
     },
     {
-      "@type": "Property",
+      "@type": ["Property", "Length"],
       "displayName": {
         "en": "length"
       },
       "name": "length",
       "schema": "double",
+      "unit": "metre",
+      "writable": true
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "displayName": {
+        "en": "length unit"
+      },
+      "name": "lengthUnit",
+      "annotates": "length",
+      "overrides": "unit",
+      "schema": "LengthUnit",
       "writable": true
     },
     {
@@ -77,6 +89,7 @@
     }
   ],
   "@context": [
-    "dtmi:dtdl:context;3"
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1"
   ]
 }
