@@ -15,6 +15,14 @@
         "en": "Time Zone"
       },
       "schema": "dtmi:com:willowinc:rail:TimeZone;1"
+    },
+    {
+      "@type": "Property",
+      "name": "clientId",
+      "displayName": {
+        "en": "Client ID"
+      },
+      "schema": "string"
     }
   ],
   "@context": [
