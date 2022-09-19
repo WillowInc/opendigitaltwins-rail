@@ -4,7 +4,7 @@
   "displayName": {
     "en": "Network"
   },
-  "extends": [
+  "extends" : [
     "dtmi:com:willowinc:rail:Collection;1"
   ],
   "contents": [
@@ -15,14 +15,6 @@
         "en": "Time Zone"
       },
       "schema": "dtmi:com:willowinc:rail:TimeZone;1"
-    },
-    {
-      "@type": "Property",
-      "name": "clientId",
-      "displayName": {
-        "en": "Client ID"
-      },
-      "schema": "string"
     }
   ],
   "@context": [
