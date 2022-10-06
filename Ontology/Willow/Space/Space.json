@@ -43,7 +43,7 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates a super-entity of the same base type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc). Inverse of: hasPart"
+        "en": "Indicates a super-entity of the same base type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc)"
       },
       "displayName": {
         "en": "is part of"
@@ -61,32 +61,6 @@
       },
       "name": "includedIn",
       "target": "dtmi:com:willowinc:rail:Collection;1"
-    },
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "Points to sub-entities that share the same base type (i.e., Spaces only have Spaces as parts, Assets only have Assets as parts, etc.). Inverse of: isPartOf"
-      },
-      "displayName": {
-        "en": "has part"
-      },
-      "name": "hasPart",
-      "target": "dtmi:com:willowinc:rail:Space;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "has capability"
-      },
-      "name": "hasCapability",
-      "target": "dtmi:com:willowinc:rail:Capability;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "is location of"
-      },
-      "name": "isLocationOf"
     },
     {
       "@type": "Relationship",

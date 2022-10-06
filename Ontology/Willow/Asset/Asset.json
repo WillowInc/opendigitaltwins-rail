@@ -72,31 +72,19 @@
     },
     {
       "@type": "Relationship",
+      "name": "ownedBy",
+      "displayName": {
+        "en": "owned by"
+      },
+      "target": "dtmi:com:willowinc:Agent;1"
+    },
+    {
+      "@type": "Relationship",
       "displayName": {
         "en": "located in"
       },
-      "minMultiplicity": 0,
       "name": "locatedIn",
       "target": "dtmi:com:willowinc:rail:Space;1"
-    },
-    {
-      "@type": "Relationship",
-      "displayName": {
-        "en": "has capability"
-      },
-      "name": "hasCapability",
-      "target": "dtmi:com:willowinc:rail:Capability;1"
-    },
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "Points to sub-entities that share the same base type (i.e., Spaces only have Spaces as parts, Assets only have Assets as parts, etc.). Inverse of: isPartOf"
-      },
-      "displayName": {
-        "en": "has part"
-      },
-      "name": "hasPart",
-      "target": "dtmi:com:willowinc:rail:Asset;1"
     },
     {
       "@type": "Relationship",
@@ -112,7 +100,7 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates a super-entity of the same base type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc). Inverse of: hasPart"
+        "en": "Indicates a super-entity of the same base type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc)"
       },
       "displayName": {
         "en": "is part of"
@@ -123,22 +111,12 @@
     {
       "@type": "Relationship",
       "description": {
-        "en": "Indicates that a Space or Asset is served by some Sensor/Actuator or other Asset. For example: an entrance room might be served by (e.g., covered by) some camera equipment, or a conference room served by a CO2 sensor. Note that Assets can also service one another, e.g., an air-treatment Asset might serve an air diffuser Asset. Inverse of: serves"
+        "en": "Indicates that a Space or Asset is served by some Sensor/Actuator or other Asset. For example: an entrance room might be served by (e.g., covered by) some camera equipment, or a conference room served by a CO2 sensor. Note that Assets can also service one another, e.g., an air-treatment Asset might serve an air diffuser Asset."
       },
       "displayName": {
         "en": "served by"
       },
       "name": "servedBy"
-    },
-    {
-      "@type": "Relationship",
-      "description": {
-        "en": "The coverage or impact area of a given Asset or Sensor/Actuator. For example: an air-treatment unit might serve several Rooms or a full Building. Note that Assets can also service one another, e.g., an air-treatment Asset might serve an air diffuser Asset. Inverse of: servedBy"
-      },
-      "displayName": {
-        "en": "serves"
-      },
-      "name": "serves"
     },
     {
       "@type": "Property",
