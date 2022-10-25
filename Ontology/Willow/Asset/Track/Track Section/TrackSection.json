@@ -28,7 +28,10 @@
       "target": "dtmi:com:willowinc:rail:Track;1"
     },
     {
-      "@type": ["Property", "Length"],
+      "@type": [
+        "Property",
+        "Length"
+      ],
       "displayName": {
         "en": "length"
       },
@@ -38,35 +41,16 @@
       "writable": true
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
-      "displayName": {
-        "en": "length unit"
-      },
-      "name": "lengthUnit",
-      "annotates": "length",
-      "overrides": "unit",
-      "schema": "LengthUnit",
-      "writable": true
-    },
-    {
-      "@type": ["Property", "Length"],
+      "@type": [
+        "Property",
+        "Length"
+      ],
       "displayName": {
         "en": "width"
       },
       "name": "width",
       "schema": "double",
       "unit": "millimetre",
-      "writable": true
-    },
-    {
-      "@type": ["Property", "ValueAnnotation", "Override"],
-      "displayName": {
-        "en": "width unit"
-      },
-      "name": "widthUnit",
-      "annotates": "width",
-      "overrides": "unit",
-      "schema": "LengthUnit",
       "writable": true
     },
     {
@@ -113,9 +97,6 @@
     }
   ],
   "@context": [
-    "dtmi:dtdl:context;3",
-    "dtmi:dtdl:extension:quantitativeTypes;1",
-    "dtmi:dtdl:extension:annotation;1",
-    "dtmi:dtdl:extension:overriding;1"
+    "dtmi:dtdl:context;2"
   ]
 }

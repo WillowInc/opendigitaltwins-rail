@@ -320,7 +320,10 @@
       "schema": "string"
     },
     {
-      "@type": ["Property", "Distance"],
+      "@type": [
+        "Property",
+        "Distance"
+      ],
       "name": "linearReferencePointLocation",
       "displayName": {
         "en": "Linear Reference Point Location"
@@ -329,17 +332,6 @@
       "schema": "double",
       "unit": "metre",
       "comment": "Distance of a point from the start of a linear reference object"
-    },
-    {
-      "@type": ["Property", "ValueAnnotation", "Override"],
-      "displayName": {
-        "en": "linear reference point location unit"
-      },
-      "name": "linearReferencePointLocationUnit",
-      "annotates": "linearReferencePointLocation",
-      "overrides": "unit",
-      "schema": "LengthUnit",
-      "writable": true
     },
     {
       "@type": "Property",
@@ -371,9 +363,6 @@
     }
   ],
   "@context": [
-    "dtmi:dtdl:context;3",
-    "dtmi:dtdl:extension:quantitativeTypes;1",
-    "dtmi:dtdl:extension:annotation;1",
-    "dtmi:dtdl:extension:overriding;1"
+    "dtmi:dtdl:context;2"
   ]
 }
