@@ -7,9 +7,7 @@
   "description": {
     "en": "A physical entity which has value, a distinct identity, and is typically manufacturered as a product."
   },
-  "extends" : [
-
-  ],
+  "extends": [],
   "contents": [
     {
       "@type": "Relationship",
@@ -117,16 +115,6 @@
         "en": "served by"
       },
       "name": "servedBy"
-    },
-    {
-      "@type": "Property",
-      "name": "networkId",
-      "displayName": {
-        "en": "Network ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference of the network to which the asset belongs. A Customer has one or many Networks. Network is considered the top-level entity for binding rail twins."
     },
     {
       "@type": "Property",
@@ -346,7 +334,10 @@
       "schema": "string"
     },
     {
-      "@type": ["Property", "Distance"],
+      "@type": [
+        "Property",
+        "Distance"
+      ],
       "name": "linearReferencePointLocation",
       "displayName": {
         "en": "Linear Reference Point Location"
@@ -357,7 +348,11 @@
       "comment": "Distance of a point from the start of a linear reference object"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "displayName": {
         "en": "linear reference point location unit"
       },
