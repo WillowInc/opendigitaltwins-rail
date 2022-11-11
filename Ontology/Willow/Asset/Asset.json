@@ -273,11 +273,56 @@
     {
       "@type": "Property",
       "displayName": {
+        "en": "IP address"
+      },
+      "name": "IPAddress",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "MAC address"
+      },
+      "name": "MACAddress",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "model number"
+      },
+      "name": "modelNumber",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
         "en": "physical tag number"
       },
       "name": "physicalTagNumber",
       "schema": "string",
       "writable": true
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "serial number"
+      },
+      "name": "serialNumber",
+      "schema": "string",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "software",
+      "displayName": {
+        "en": "Software"
+      },
+      "writable": true,
+      "schema": "string"
     },
     {
       "@type": "Property",
