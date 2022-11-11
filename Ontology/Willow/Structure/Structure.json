@@ -121,16 +121,6 @@
     },
     {
       "@type": "Property",
-      "name": "landId",
-      "displayName": {
-        "en": "Land ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference of the land (i.e. airport) to which the asset belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding airport twins."
-    },
-    {
-      "@type": "Property",
       "displayName": {
         "en": "name"
       },
@@ -300,6 +290,48 @@
       },
       "writable": true,
       "schema": "string"
+    },
+    {
+      "@type": [
+        "Property",
+        "Distance"
+      ],
+      "name": "linearReferencePointLocation",
+      "displayName": {
+        "en": "Linear Reference Point Location"
+      },
+      "writable": true,
+      "schema": "double",
+      "unit": "metre",
+      "comment": "Distance of a point from the start of a linear reference object"
+    },
+    {
+      "@type": "Property",
+      "name": "linearReferenceLineLocation",
+      "displayName": {
+        "en": "Linear Reference Line Location"
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Object",
+        "fields": [
+          {
+            "name": "start",
+            "displayName": {
+              "en": "Start"
+            },
+            "schema": "double"
+          },
+          {
+            "name": "end",
+            "displayName": {
+              "en": "End"
+            },
+            "schema": "double"
+          }
+        ]
+      },
+      "comment": "Start and end distances of a line from the start of a linear reference object"
     }
   ],
   "@context": [

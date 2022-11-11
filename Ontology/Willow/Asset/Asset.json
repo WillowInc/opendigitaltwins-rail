@@ -62,6 +62,14 @@
     },
     {
       "@type": "Relationship",
+      "displayName": {
+        "en": "located in"
+      },
+      "name": "locatedIn",
+      "target": "dtmi:com:willowinc:rail:Space;1"
+    },
+    {
+      "@type": "Relationship",
       "description": {
         "en": "Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Track is included in a Network. Inverse of: includes"
       },
@@ -91,16 +99,6 @@
         "en": "served by"
       },
       "name": "servedBy"
-    },
-    {
-      "@type": "Property",
-      "name": "networkId",
-      "displayName": {
-        "en": "Network ID"
-      },
-      "writable": true,
-      "schema": "string",
-      "comment": "Reference of the network to which the asset belongs. A Customer has one or many Networks. Network is considered the top-level entity for binding rail twins."
     },
     {
       "@type": "Property",
