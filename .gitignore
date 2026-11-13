@@ -1,1 +1,4 @@
 Ontology/DTDLValidator.exe
+
+# Claude Code per-user settings: "don't ask again" stores approved commands verbatim, secrets included
+**/.claude/settings.local.json
